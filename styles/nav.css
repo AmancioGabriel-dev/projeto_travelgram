@@ -1,21 +1,24 @@
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     line-height: 0;
     align-items: center;
     text-align: center;
     padding-block: 20px;
-}
 
-nav ul{
+    & ul img[src*="MagnifyingGlass"] {
+        margin-left: auto;
+    }
+}
+nav ul {
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 24px;
-    padding-block: 8px;
+    justify-content: center;
+    gap: 16px;
 }
 
-nav ul li:last-child img{
+nav ul li:last-child img {
     width: 40px;
     height: 40px;
     object-fit: cover;
